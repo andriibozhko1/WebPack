@@ -1,1 +1,5 @@
-alert(1)
+class Test {
+  render() {
+    let t = 1;
+  }
+}
