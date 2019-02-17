@@ -12,7 +12,7 @@
     "url": "git+https://github.com/andriibozhko1/webpack.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrii Bozhko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/andriibozhko1/webpack/issues"
@@ -23,6 +23,7 @@
     "@babel/preset-env": "^7.3.1",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
