@@ -8,7 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js'
   },
-
+  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -21,7 +21,15 @@ module.exports = {
             plugins: ['@babel/plugin-proposal-object-rest-spread']
           }
         }
-      }
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+            test: /\.scss$/,
+            use: ["style-loader","css-loader", "sass-loader"]
+        }
     ]
   },
 
